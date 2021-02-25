@@ -95,7 +95,7 @@ def start():
     ans.pack()
     sub = tk.Button(root, text="Submit", command=submit)
     sub.pack()
-    print("correct answer-5")
+    print("correct answer-3")
 
 
 
