@@ -4,7 +4,7 @@ window.title("5 Questions")
 window.geometry("800x350")
 window.configure(background="purple")
 score = 0
-def inst():
+def inst():#Инструмент с помощью которого мы устанавливаем вариант того, что будем отвечать 1,2,3 или словом
     t = tk.Label(window, text="Все, что вам нужно сделать, это просто ответить на каждый вопрос «1, 2, 3» или словом")
     t.pack()
 
